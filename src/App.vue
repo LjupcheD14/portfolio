@@ -90,7 +90,7 @@
       <img class="img-fluid" src="./assets/images/ljupce.jpg" >
       <div class="tekst-mobile col-mobile">
         <h1 style="font-weight: bold;">Ljubomir Davitkov</h1>
-        <p style="font-family: 'Noto Serif', serif;">I am a software engineer who likes to upgrade himself constantly with new knowledge and experiences. I would describe myself as persistent because whenever I want something I want to achieve it. I see myself as a successful web developer in the future.</p>
+        <p style="font-family: 'Noto Serif', serif;">I am a software engineer student who likes to upgrade himself constantly with new knowledge and experiences. I would describe myself as a persistent and ambitious person because whenever I want something I am going to achieve it. I see myself as a successful software engineer in the future.</p>
       </div>
     </div>
 
