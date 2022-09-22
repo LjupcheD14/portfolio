@@ -4,11 +4,11 @@
       <img class="img-fluid" :src="info.image">
       <div class="tekst col">
         <h1 style="font-weight: bold; font-family: 'Padauk', sans-serif; ">{{info.name_surname}}</h1>
-        <p style="font-family: 'Noto Serif', serif; padding-left: 20px;">
-          {{info.desc}}
+        <p style="font-family: 'Noto Serif', serif;">
+          <type-effect/>
         </p>
         <Typewriter/>
-        <p style="font-family: 'Noto Serif', serif; padding: 20px;">
+        <p style="font-family: 'Noto Serif', serif; padding-left: 20px;">
           {{info.text}}
         </p>
       </div>
@@ -19,9 +19,9 @@
       <div class="tekst-mobile col-mobile p-3">
         <h1 style="font-weight: bold; font-family: 'Padauk', sans-serif; ">{{info.name_surname}}</h1>
         <p style="font-family: 'Noto Serif', serif; padding-left: 20px;">
-          {{info.desc}}
+          <type-effect/>
         </p>
-        <p style="font-family: 'Noto Serif', serif; padding: 20px;">
+        <p style="font-family: 'Noto Serif', serif;">
           {{info.text}}
         </p>
       </div>
@@ -31,9 +31,11 @@
 
 <script>
 
+import TypeEffect from "@/components/components_assets/TypeEffect";
 
 export default {
   name: "TextAndImage",
+  components: {TypeEffect},
   data(){
     return{
       information: [
@@ -46,7 +48,10 @@ export default {
               "          ambitious person because whenever I want something I am going to achieve it. I see myself as a successful\n" +
               "          developer in the future.",
         }
-      ]
+      ],
+      components: {
+        TypeEffect
+      }
     }
   }
 }
