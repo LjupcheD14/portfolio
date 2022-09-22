@@ -31,7 +31,6 @@
 
 <script>
 
-import TypeWriterExample from "@/components/TypeWriterExample";
 
 export default {
   name: "TextAndImage",
@@ -47,9 +46,6 @@ export default {
               "          ambitious person because whenever I want something I am going to achieve it. I see myself as a successful\n" +
               "          developer in the future.",
         }
-      ],
-      components: [
-        TypeWriterExample
       ]
     }
   }

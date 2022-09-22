@@ -3,7 +3,7 @@
   <main>
 
     <MetaAndLinks/>
-<!--    <TypeWriter/>-->
+    <TypeWriterExample/>
     <TextAndImage/>
     <Divider/>
     <AboutMe/>
@@ -25,7 +25,6 @@ import MetaAndLinks from "@/components/MetaAndLinks";
 import AboutMe from "@/components/AboutMe";
 import Divider from "@/components/Divider";
 import Footer from "@/components/Footer";
-// import TypeWriter from "@/components/TypeWriter";
 
 export default {
   components: {
@@ -34,7 +33,6 @@ export default {
     AboutMe,
     Divider,
     Footer
-    // TypeWriter
   }
 }
 
