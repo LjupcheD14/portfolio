@@ -15,8 +15,8 @@ export default {
       typeValue: '',
       typeStatus: false,
       typeArray: ['Computer science student', 'Intern at Bike Computer'],
-      typingSpeed: 30,
-      erasingSpeed: 30,
+      typingSpeed: 50,
+      erasingSpeed: 50,
       newTextDelay: 500,
       typeArrayIndex: 0,
       charIndex: 0
