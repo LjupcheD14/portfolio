@@ -8,16 +8,16 @@
 </template>
 
 <script>
-//import { setTimeout } from 'timers';
+// import { setTimeout } from 'timers';
 export default {
   data: () => {
     return {
       typeValue: '',
       typeStatus: false,
       typeArray: ['Computer science student', 'Intern at Bike Computer'],
-      typingSpeed: 200,
-      erasingSpeed: 100,
-      newTextDelay: 2000,
+      typingSpeed: 30,
+      erasingSpeed: 30,
+      newTextDelay: 500,
       typeArrayIndex: 0,
       charIndex: 0
     }
