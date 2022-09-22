@@ -18,7 +18,7 @@
       <img class="img-fluid" :src="info.image">
       <div class="tekst-mobile col-mobile p-3">
         <h1 style="font-weight: bold; font-family: 'Padauk', sans-serif; ">{{info.name_surname}}</h1>
-        <p style="font-family: 'Noto Serif', serif; padding-left: 20px;">
+        <p style="font-family: 'Noto Serif', serif;">
           <type-effect/>
         </p>
         <p style="font-family: 'Noto Serif', serif;">
